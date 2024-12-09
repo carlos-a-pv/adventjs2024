@@ -2,8 +2,6 @@
 
 ### Rules:
 
-### Ordered
-
 1. Given an array of names, you must create a rectangular frame that contains all of them.
 2. Each name must be on a line, aligned to the left.
 3. The frame is built with * and has a border one line thick.
