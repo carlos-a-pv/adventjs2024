@@ -2,7 +2,9 @@ function prepareGifts(gifts) {
     return [...new Set(gifts)].sort((a,b)=> {
         return a-b;
     });
-    // return [...new Set(gifts)].sort()
+
+    
+    //Solucion menos eficiente
     // if(gifts.length == 0){
     //     return gifts;
     // }
@@ -14,7 +16,7 @@ function prepareGifts(gifts) {
     //         giftsSinDuplicados.push(gifts[i])
     //     }
     // }
-    // return giftsSinDuplicados.sort();
+    // return giftsSinDuplicados.sort((a,b) => a-b);
 
     
 }
